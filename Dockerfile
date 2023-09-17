@@ -1,4 +1,4 @@
-FROM bitnami/pgbouncer:latest
+FROM bitnami/pgbouncer:1.20.0
 
 RUN sed -i \
     's@export PGBOUNCER_BASE_DIR="${BITNAMI_ROOT_DIR}/pgbouncer"@export PGBOUNCER_BASE_DIR="/home/1001/pgbouncer"@' \
